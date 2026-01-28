@@ -1,0 +1,26 @@
+## Build
+bin/
+obj/
+
+## Test results (NUnit/Selenium)
+TestResults/
+*.trx
+*.nunit
+
+## Visual Studio
+*.sln
+*.suo
+*.user
+.vs/
+.vscode/
+
+## Logs e configs locais
+*.log
+appsettings.json  # se contiver segredos; use appsettings.Development.json em vez disso
+*.config
+
+## Pacotes NuGet
+packages/
+
+## Screenshots de testes (da sua estrutura)
+Screenshots/
